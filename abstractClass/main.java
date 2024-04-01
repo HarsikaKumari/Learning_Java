@@ -1,5 +1,17 @@
 import javax.swing.*;
 import java.awt.event.*;
+
+
+public class main {
+
+    public static void main(String[] args) {
+    
+    Gui g = new Gui();
+    
+    }
+    
+    }
+
 class Gui implements MouseListener
 {
 JFrame jf;
@@ -53,17 +65,6 @@ jl.setText("You Enter in My Zone");
 @Override
 public void mouseExited(MouseEvent e) {
 jl.setText("Chetan Suri");
-}
-
-}
-
-
-public class Main {
-
-public static void main(String[] args) {
-
-Gui g = new Gui();
-
 }
 
 }
