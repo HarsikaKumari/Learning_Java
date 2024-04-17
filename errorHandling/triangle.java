@@ -8,7 +8,7 @@ public class triangle {
     public triangle(double height, double base) {
         this.base = base;
         this.height = height;
-        System.out.println("The height of the triangle is: " + height + "the height of the base is: " + base);
+        // System.out.println("The height of the triangle is: " + height + "the height of the base is: " + base);
     }
 
     public void setHeight(double height) {
