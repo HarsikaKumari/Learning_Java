@@ -40,12 +40,12 @@ public class triangle {
         System.out.print("Enter the base of the triangle: ");
         double base = scanner.nextDouble();
         
-        tri.setBase(base);
+        // tri.setBase(base);
         
         System.out.println("Enter the height of the triangle: ");
         double height = scanner.nextDouble();
         
-        tri.setHeight(height);
+        // tri.setHeight(height);
         
         triangle tri = new triangle(height, base);
 
