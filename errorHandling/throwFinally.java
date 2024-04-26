@@ -8,13 +8,13 @@ public class throwFinally {
     // int c = a/b;
  
     try {
-        System.err.println("Part before error!");
-        int err = a / b; // This line throws ArithmeticException
-        System.err.println("Part after error!");
+        System.out.println("Part before error!");
+        int c = a / b; // This line throws ArithmeticException
+        System.out.println("Part after error!" + c);
     } catch (ArithmeticException e) {
-        System.err.println("Arithmetic error occurred!");
+        System.out.println("Arithmetic error occurred!" );
     } finally {
-        System.err.println("Finally block printed!");
+        System.out.println("Finally block printed!");
     }
   }    
 }
