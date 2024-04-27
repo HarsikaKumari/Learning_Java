@@ -10,9 +10,11 @@
 //     }
 // }
 
+// Q.3 crete user defined exception shoe use of throw/finally keyword.
+
 package evaluation4;
 
-// Define a user-defined exception
+// user defined exception
 class CustomException extends Exception {
     public CustomException(String message) {
         super(message);

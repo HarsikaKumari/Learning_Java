@@ -29,3 +29,5 @@ public class question1 {
         }
     }
 }
+
+// Q.1 wap related to reading and writing data from DB.
