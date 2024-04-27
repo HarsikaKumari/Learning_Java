@@ -9,7 +9,7 @@ public class throwFinally {
  
     try {
         System.out.println("Part before error!");
-        int c = a / b; // This line throws ArithmeticException
+        int c = a / b; 
         System.out.println("Part after error!" + c);
     } catch (ArithmeticException e) {
         System.out.println("Arithmetic error occurred!" );
